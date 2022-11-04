@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package com.mycompany.acohen_pong;
 
 /**
@@ -34,10 +29,8 @@ public interface GameConstants {
     
     //max and min allowed ball coordinates 
     public final int BALL_MIN_X=65; 
-//    public final int BALL_MIN_Y=40; 
      public final int BALL_MIN_Y=240; 
     public final int BALL_MAX_X=TABLE_WIDTH-95; 
-//    public final int BALL_MAX_Y=TABLE_HEIGHT-66; 
     public final int BALL_MAX_Y=TABLE_BOTTOM+50; 
     
     //starting coordinates of the ball 
